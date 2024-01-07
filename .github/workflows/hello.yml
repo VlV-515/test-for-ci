@@ -1,13 +1,17 @@
-name: Say hello
+name: Say hello in main
 
 on:
   push:
     branches:
-      - ci-test
+      - main
 jobs:
-  hello:
+  hello_world_main:
     runs-on: ubuntu-18.04
     steps:
       - name: Echo Messagge
         run: |
           echo "Hello, World!!"
+      - name: Dime la fecha
+        run: date
+      - name: View Directory
+        run: ls -l
