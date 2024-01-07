@@ -1,0 +1,12 @@
+name: Say hello
+
+on:
+  push:
+    branches:
+      - ci-test
+jobs:
+  hello:
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Echo Messagge
+        run: echo "Hello, World!"
