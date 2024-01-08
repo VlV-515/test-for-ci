@@ -1,3 +1,5 @@
+[![Deployment Pipeline](https://github.com/VlV-515/test-for-ci/actions/workflows/pipeline.yml/badge.svg)](https://github.com/VlV-515/test-for-ci/actions/workflows/pipeline.yml)
+
 # TestForCi
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.11.
